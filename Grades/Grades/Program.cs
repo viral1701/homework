@@ -19,6 +19,9 @@ namespace Grades
             Console.WriteLine(stats.AverageGrade);
             Console.WriteLine(stats.HighestGrade);
             Console.WriteLine(stats.LowestGrade);
+
+            var instance = new GradeStatistics();
+            instance.Method2();
         }
     }
 }

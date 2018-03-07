@@ -15,6 +15,11 @@ namespace Grades
             LowestGrade = float.MaxValue;
         }
 
+        public void Method2()
+        {
+            // do something
+        }
+
         public float AverageGrade;
         public float HighestGrade;
         public float LowestGrade;
