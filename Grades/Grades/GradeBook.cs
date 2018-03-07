@@ -13,6 +13,8 @@ namespace Grades
             grades = new List<float>();
         }
 
+        private List<float> grades;
+
         public GradeStatistics ComputeStatistics()
         {
             GradeStatistics stats = new GradeStatistics();
@@ -34,7 +36,5 @@ namespace Grades
         {
             grades.Add(grade);
         }
-
-        private List<float> grades;
     }
 }
